@@ -7169,16 +7169,17 @@ body {
 
 .container {
   width: 80%;
+  margin: auto;
   justify-content: center; }
-
-.card {
-  width: 17rem; }
 
 #Capa_1 {
   fill: indigo;
   padding-bottom: .5rem;
-  height: 60px;
+  height: 50px;
   width: 50px; }
+
+.htw {
+  width: 100%; }
 
 .hero {
   height: 130vh;
@@ -7195,10 +7196,3 @@ body {
     width: 100%;
     position: absolute;
     bottom: -40px; }
-
-.icon {
-  align-items: center;
-  justify-content: center;
-  display: flex; }
-  .icon #Capa_1 {
-    fill: red; }
