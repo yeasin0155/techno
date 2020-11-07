@@ -1,0 +1,36 @@
+.hero{
+    height: 130vh;
+    width: 100%;
+    position: relative;
+
+    &__content{
+        
+        color: white;
+        position: absolute;
+        top: 6rem;
+        text-align: center; 
+    }
+
+    &__img{
+        width: 30rem;
+    }
+
+    .shape-divider{
+        width: 100%;
+        position: absolute;
+        bottom: -40px;
+    }
+
+}
+
+
+.icon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    #Capa_1{
+        fill: red;
+    }
+    
+}
