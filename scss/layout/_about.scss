@@ -1,0 +1,86 @@
+// Card-Section
+#Capa_1{
+    fill: $primary;
+    padding-bottom: map-get($padding, "small" );
+    height: 50px;
+    width: 50px;
+}
+
+
+// About-Section
+
+.about{
+    margin-top: map-get($margin, "extra-l" );
+    font-size: map-get($font, "small" );
+
+  #Capa_1{
+      background: $light;
+      margin-top: map-get($margin, "small" );
+      height: 60px;
+      width: 60px;
+      padding: map-get($padding, "small" );
+      border-radius: map-get($b-radius, "normal" );
+  }
+ img{
+     height: 30rem;
+     margin-left: 50px;
+ }
+}
+
+// Organize-section
+
+.organize{
+    margin-top: map-get($margin, "extra-l" );
+    font-size: map-get($font, "normal" );
+
+    img{
+        height: 30rem;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+// Carousel
+
+
+.carousel{
+
+    align-items: center;
+    justify-content: center;
+
+    
+
+    &__img{
+
+        height: 28rem;
+        width: 14rem;
+        
+    }
+}
+
+// plan
+
+
+.plan{
+    
+    
+    &__p{
+        color: $primary;
+        font-size: map-get($font, "small" );
+    }
+
+    &__span{
+        font-size: map-get($font, "large" );
+    }
+
+    &__btn{
+        background-color: $primary;
+        a{
+            color: $light;
+            font-size: map-get($font, "small" );
+            text-decoration: none;
+        }
+    }
+}

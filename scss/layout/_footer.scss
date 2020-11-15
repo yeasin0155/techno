@@ -1,0 +1,35 @@
+.footer{
+    margin-top: map-get($margin, "extra-l" );;
+    background: $dark;
+    color: $light;
+
+    a{
+        text-decoration: none;
+        color: $light;
+    }
+
+    .form-control{
+        background: $bg-primary;
+    }
+
+    .btn{
+        background: $tertiary;
+        color: $light;
+    }
+
+    .social-1{
+        background: $secondary;
+    }
+
+    .social-2{
+        background: $tertiary;
+    }
+
+    .social-3{
+       background: $social;
+    }
+    .social-4{
+        background:$secondary-color;
+     }
+}
+

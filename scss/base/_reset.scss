@@ -8,7 +8,7 @@
 
 body{
     // overflow: hidden;
-    min-height: 2000px;
+    // min-height: 2000px;
     font-family: 'Poppins', sans-serif;
     background: $bg-primary;
 
@@ -18,22 +18,15 @@ body{
     width: 80%;
     margin: auto;
     justify-content: center;
+    align-items: center;
+    
 }
 
 
 
-// .service-card{
-//     width: 11rem;
-// }
 
-#Capa_1{
-    fill: indigo;
-    padding-bottom: .5rem;
-    height: 50px;
-    width: 50px;
-}
 
-.htw{
-    width: 100%;
-}
+
+
+
 

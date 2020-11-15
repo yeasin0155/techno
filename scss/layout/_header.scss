@@ -1,11 +1,11 @@
 .hero{
-    height: 130vh;
+    height: 115vh;
     width: 100%;
     position: relative;
 
     &__content{
         
-        color: white;
+        color: $light;
         position: absolute;
         top: 6rem;
         text-align: center; 
@@ -15,12 +15,27 @@
         width: 30rem;
     }
 
+    &__btn{
+        background-color: $tertiary;
+        margin-top: map-get($margin, "large" );
+        a{
+            color: $light;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+    }
+
     .shape-divider{
         width: 100%;
         position: absolute;
-        bottom: -40px;
+        bottom: -50px;
     }
 
+}
+
+
+.secondary{
+    color: $tertiary;
 }
 
 
