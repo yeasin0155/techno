@@ -10923,7 +10923,7 @@ body {
 }
 
 .hero {
-  height: 115vh;
+  height: 120vh;
   width: 100%;
   position: relative;
 }
@@ -11005,8 +11005,8 @@ body {
 }
 
 .carousel__img {
-  height: 28rem;
-  width: 14rem;
+  height: 20rem;
+  width: 10rem;
 }
 
 .plan__p {
